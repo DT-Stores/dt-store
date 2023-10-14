@@ -9,9 +9,26 @@
 </head>
 <body>
 
-    <div class="flex justify-center w-full">
+    <style>
+        html {
+            height: 100%;
+        }
+
+        body {
+            height: 100%;
+            display: flex;
+        }
+
+        .banner {
+            flex-grow: 1;
+            align-content: center;
+            justify-content: center;
+        }
+    </style>
+
+    <div class="banner">
         <div class="w-full h-full bg-gradient-to-tr from-[#E4F1FF] via-[#AED2FF] to-[#9400FF]">
-            <h1 class="text-4xl font-extrabold align-middle text-center">Coming Soon</h1>
+            <h1 class="text-4xl font-extrabold flex justify-center align-middle py-12">Coming Soon</h1>
         </div>
     </div>
 
